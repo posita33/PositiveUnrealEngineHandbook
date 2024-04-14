@@ -17,7 +17,6 @@ review_version: 5.0
 # inherit: ["A.yml", "B.yml"]
 
 # ブック名(ファイル名になるもの。ASCII範囲の文字を使用)
-# bookname: ReVIEW-Template
 bookname: PositiveUnrealEngineHandbook
 # 記述言語。省略した場合はja
 language: ja
@@ -48,11 +47,11 @@ aut: [{name: "ポジTA", file-as: "ポジタ"}]
 # a-cmm, cmm: 解釈・分析・考察者
 # a-csl, csl: 監修者
 # a-dsr, dsr: デザイナ
-dsr: ["ポジTA"]
+dsr: ポジTA
 # a-edt, edt: 編集者
 edt: ["ポジTA"]
 # a-ill, ill: イラストレータ
-ill: ["ポジTA"]
+ill: ポジTA
 # a-lyr, lyr: 歌詞作成者
 # a-mdc, mdc: メタデータセットの一次的責任者
 # a-mus, mus: 音楽家
@@ -60,7 +59,7 @@ ill: ["ポジTA"]
 # a-oth, oth: その他
 # a-pht, pht: 撮影責任者
 # a-pbl, pbl: 出版社（発行所）
-pbl: ["ポジTA"]
+pbl: ポジTA
 # a-prt, prt: 印刷所
 # prt: 日光企画
 # prt: TechBooster
@@ -384,8 +383,6 @@ texstyle: ["reviewmacro"]
 # texdocumentclass: ["review-jsbook", "media=print,paper=a5,serial_pagination=true,hiddenfolio=nikko-pc,openany,fontsize=9pt,baselineskip=13pt,line_length=38zw,number_of_lines=37,head_space=15mm,headsep=3mm,headheight=5mm,footskip=10mm"]
 # A5の設定(9pt 38文字×37行) - 電子版
 # texdocumentclass: ["review-jsbook", "media=ebook,paper=a5,serial_pagination=true,openany,fontsize=9pt,baselineskip=13pt,line_length=38zw,number_of_lines=37,head_space=15mm,headsep=3mm,headheight=5mm,footskip=10mm"]
-# A5の設定(9pt 38文字×37行) - 電子版（openanyを外して目次や章は右ページにした）
-texdocumentclass: ["review-jsbook", "media=ebook,paper=a5,serial_pagination=true,fontsize=9pt,baselineskip=13pt,line_length=38zw,number_of_lines=37,head_space=15mm,headsep=3mm,headheight=5mm,footskip=10mm"]
 #
 # LaTeX用のコマンドを指定する
 # texcommand: "uplatex"

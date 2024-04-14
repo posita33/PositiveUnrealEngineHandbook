@@ -1,0 +1,9 @@
+version: '3'
+services:
+  review:
+    image: vvakame/review:5.8
+    volumes:
+      - .:/PositiveUnrealEngineHandbook
+    build: .
+    working_dir: /PositiveUnrealEngineHandbook
+    
