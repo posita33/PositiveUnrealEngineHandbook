@@ -116,12 +116,12 @@ epubversion: 3
 htmlversion: 5
 
 # 目次として抽出する見出しレベル
-toclevel: 3
+toclevel: 2
 
 # 採番の設定。採番させたくない見出しには「==[nonum]」のようにnonum指定をする
 #
 # 本文でセクション番号を表示する見出しレベル
-secnolevel: 3
+secnolevel: 2
 
 # 本文中に目次ページを作成するか。省略した場合はnull (作成しない)
 toc: true
@@ -383,9 +383,12 @@ texstyle: ["reviewmacro"]
 # A5の設定(9pt 38文字×37行) - 紙版
 # texdocumentclass: ["review-jsbook", "media=print,paper=a5,serial_pagination=true,hiddenfolio=nikko-pc,openany,fontsize=9pt,baselineskip=13pt,line_length=38zw,number_of_lines=37,head_space=15mm,headsep=3mm,headheight=5mm,footskip=10mm"]
 # A5の設定(9pt 38文字×37行) - 電子版
-# texdocumentclass: ["review-jsbook", "media=ebook,paper=a5,serial_pagination=true,openany,fontsize=9pt,baselineskip=13pt,line_length=38zw,number_of_lines=37,head_space=15mm,headsep=3mm,headheight=5mm,footskip=10mm"]
+texdocumentclass: ["review-jsbook", "media=ebook,paper=a5,serial_pagination=true,openany,fontsize=9pt,baselineskip=13pt,line_length=38zw,number_of_lines=37,head_space=15mm,headsep=3mm,headheight=5mm,footskip=10mm"]
+
+# A5の設定(9pt 38文字×37行) - 紙版（openanyを外して目次や章は右ページにした）
+# texdocumentclass: ["review-jsbook", "media=print,paper=a5,serial_pagination=true,hiddenfolio=nikko-pc,fontsize=9pt,baselineskip=13pt,line_length=38zw,number_of_lines=37,head_space=15mm,headsep=3mm,headheight=5mm,footskip=10mm"]
 # A5の設定(9pt 38文字×37行) - 電子版（openanyを外して目次や章は右ページにした）
-texdocumentclass: ["review-jsbook", "media=ebook,paper=a5,serial_pagination=true,fontsize=9pt,baselineskip=13pt,line_length=38zw,number_of_lines=37,head_space=15mm,headsep=3mm,headheight=5mm,footskip=10mm"]
+# texdocumentclass: ["review-jsbook", "media=ebook,paper=a5,serial_pagination=true,fontsize=9pt,baselineskip=13pt,line_length=38zw,number_of_lines=37,head_space=15mm,headsep=3mm,headheight=5mm,footskip=10mm"]
 #
 # LaTeX用のコマンドを指定する
 # texcommand: "uplatex"
