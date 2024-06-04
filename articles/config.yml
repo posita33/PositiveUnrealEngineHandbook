@@ -62,7 +62,7 @@ ill: ["ポジTA"]
 # a-pbl, pbl: 出版社（発行所）
 pbl: ["ポジTA"]
 # a-prt, prt: 印刷所
-# prt: 日光企画
+prt: 日光企画
 # prt: TechBooster
 # a-red, red: 項目の枠組起草者
 # a-rev, rev: 評論者
@@ -232,7 +232,7 @@ colophon: true
 #    パラメータ: 値
 #   ...
 # という構成にする必要がある(インデントさせる)
-# imgmath_options:
+imgmath_options:
   # 使用する画像拡張子。通常は「png」か「svg」（svgの場合は、pdfcrop_pixelize_cmdの-pngも-svgにする）
   # format: png
   # 変換手法。pdfcrop または dvipng
@@ -240,7 +240,7 @@ colophon: true
   # プリアンブルの内容を上書きするファイルを指定する（デフォルトはupLaTeX+jsarticle.clsを前提とした、lib/review/makerhelper.rbのdefault_imgmath_preambleメソッドの内容）
   # preamble_file: null
   # 基準のフォントサイズ
-  # fontsize: 10
+   fontsize: 14
   # 基準の行間
   # lineheight: 12
   # converterにpdfcropを指定したときのpdfcropコマンドのコマンドライン。プレースホルダは
@@ -381,7 +381,7 @@ texstyle: ["reviewmacro"]
 # B5の設定(10pt 40文字×35行) - 電子版
 # texdocumentclass: ["review-jsbook", "media=ebook,paper=b5,serial_pagination=true,openany,fontsize=10pt,baselineskip=15.4pt,line_length=40zw,number_of_lines=35,head_space=30mm,headsep=10mm,headheight=5mm,footskip=10mm"]
 # A5の設定(9pt 38文字×37行) - 紙版
-# texdocumentclass: ["review-jsbook", "media=print,paper=a5,serial_pagination=true,hiddenfolio=nikko-pc,openany,fontsize=9pt,baselineskip=13pt,line_length=38zw,number_of_lines=37,head_space=15mm,headsep=3mm,headheight=5mm,footskip=10mm"]
+#texdocumentclass: ["review-jsbook", "media=print,paper=a5,serial_pagination=true,hiddenfolio=nikko-pc,openany,fontsize=9pt,baselineskip=13pt,line_length=38zw,number_of_lines=37,head_space=15mm,headsep=3mm,headheight=5mm,footskip=10mm"]
 # A5の設定(9pt 38文字×37行) - 電子版
 texdocumentclass: ["review-jsbook", "media=ebook,paper=a5,serial_pagination=true,openany,fontsize=9pt,baselineskip=13pt,line_length=38zw,number_of_lines=37,head_space=15mm,headsep=3mm,headheight=5mm,footskip=10mm"]
 
